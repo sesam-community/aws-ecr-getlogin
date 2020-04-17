@@ -19,8 +19,8 @@ The microservice config should be as follows:
       "LOCALIP": "<sesam node box IP here>",
       "SESAM_JWT_TOKEN": "<sesam JWT token able to write secrets to sesam. ie admin>"
     },
-    "image": "sesamcommunity/aws-ecr-getlogin:latest",
-    "memory": 64,
+    "image": "sesamcommunity/aws-ecr-getlogin:1.0.0",
+    "memory": 128,
     "port": 5001,
   },
   "read_timeout": 7200,
